@@ -1,0 +1,28 @@
+Does the code implement a design pattern?
+
+Al revisar la estructura de cada uno de los diferentes modulos, podemos concluir que no se aplica ningun patron de disenio.
+
+Is the code tightly coupled?
+
+Al revisar la estructura puedo determinar que tienen un pequenio grado de acoplamiento, como por ejemplo tiene separado el modulo de instrucciones que se ejecutan al momento de leer un archivo, solo esa parte podria resaltar, vemos que el backend y el frontend no esta separado y los objetos, no se pueden notar como tal, ademas de que no tiene por separado un modulo de acciones que se realizan al momento de leer un archivo como por ej, (consultas, estados de cuenta, entre otros).
+
+Is code testable?
+
+Dado las practicas que se utilizaron al momento de diseniar el codigo, puedo decir que no es testeable, debido a la cantidad de codigo que hay por cada metodo o clase. Por lo tanto antes del testeo se necestia refactorizar.
+
+
+Is the code human readable?
+
+Es poco leible, hay algunas clases o metodos que sin tener informacion acerca del proyecto se puede entender lo que realiza, pero hay algunas otras que por la cantidad de lineas que posee y con las variables que se declaran no podremos leerlo.
+
+Is the code duplicated?
+
+Hay algunos metodos en donde se duplica el codigo, hay clases tambien que se duplican acciones y solo cambian algunos metodos.
+
+Is the code too lengthy to understand?
+
+Es demasiado largo, no, el no entederlo no se ve afectado en este caso por la cantidad de lineas que hay en clases, creo que la clase mas larga es de 200 lineas.
+
+
+Se violan principios de disenio como
+Liskov Sustitution, Open/Close

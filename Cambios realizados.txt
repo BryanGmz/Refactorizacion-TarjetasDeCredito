@@ -1,0 +1,28 @@
+Cosas que se cambiaron:
+
+Se eliminaron algunas clases que no servian como por ejemplo:
+    * ListadoDeTarjetas1
+    * UntitledClass
+
+Las clases del paquete Reportes, debido a que en un futuro se puedan agregar los reportes.
+
+Se implemento el patron strategy, para las diferentes instrucciones que se necesitaban como por ejemplo: Autorizacion, Cancelacion, Consultar, entre otras acciones.
+
+Se elimino el codigo repido de varias clases como por ejemplo Listado_de_Solicitudes y Listado_de_Tarjetas.
+
+Se agrego el patron de disenio Factory para la Creacion de Instrucciones, y Tarjetas de Credito, estos se encuentran en el paquete Factory, las clases que se
+encuentran en las clases de este paquete se implementaron tambien el patron de disenio Singlenton.
+
+Se implemnto un "Molde" para escribir un archivo HTML, este llamado ProcesoHTML.
+
+Se implmento una clase Generadora de Numeros de Tarjeta de Credito, esta llamada GeneradorNumeroDeTarjeta esta implemnta el patron Singlenton.
+
+Se elimino el codigo repetido de las tarjetas de Credito: Internacional, Nacional y Regional.
+
+Se creo la clase Archivo, que implementa metodos de Escritura y Lectura. (Aca se encuentran los metodos relacionados a la accion de un archivo persistente, como guardar y obtener un archivo persistente)
+
+Para que el codigo sea mas legible, se agregaron las clases enum de: Acciones y Tipos de Tarjeta.
+
+Debido al contexto del proyecto, se agrego una clase de constantes donde se almacenan constantes importantes que en un futuro
+pueden llegar a cambiar y esto para no realizar el cambio en cada una de las diferentes clases que puedan hacer uso de ellas.
+
